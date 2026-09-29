@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "国际实习岗位履约",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "企业导师",
+    "合作院校",
+    "实习学生"
+  ],
+  "states": [
+    "申请",
+    "录取",
+    "履约",
+    "评估",
+    "退出"
+  ],
+  "invariants": [
+    "岗位容量",
+    "资格快照",
+    "导师占用",
+    "履约证据"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-005-A",
+      "actor": "企业导师",
+      "state": "申请"
+    },
+    {
+      "case_id": "09303-005-B",
+      "actor": "实习学生",
+      "state": "录取"
+    }
+  ],
+  "tags": [
+    "international-internship",
+    "placement-fulfillment"
+  ]
+}

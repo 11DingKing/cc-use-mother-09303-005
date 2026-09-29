@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-09303-005"
+version = "0.1.0"
+description = "国际实习岗位履约的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
