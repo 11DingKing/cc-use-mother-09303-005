@@ -1,6 +1,16 @@
 [project]
 name = "domain-contract-09303-005"
-version = "0.1.0"
-description = "国际实习岗位履约的领域约定与校验工具"
+version = "0.2.0"
+description = "国际实习岗位履约的领域约定、校验工具与录取履约后端"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+internship-server = "internship.app:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
